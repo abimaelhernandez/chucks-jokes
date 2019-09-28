@@ -4,6 +4,7 @@
   "description": "module of chuck norris apis ",
   "main": "index.js",
   "scripts": {
+    "dev": "webpack --config webpack.config.js --watch --mode development",
     "start": "node server/index.js"
   },
   "repository": {
@@ -17,6 +18,17 @@
   },
   "homepage": "https://github.com/abimaelhernandez/chucks-jokes#readme",
   "devDependencies": {
-     "express": "^4.17.1"
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2"
   }
 }
