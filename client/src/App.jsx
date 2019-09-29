@@ -23,7 +23,9 @@ componentDidMount(){
     })
 }
 
-getCategories =() => {
+getExactCatergory=(category) => {
+
+  console.log("que lo que seleccionaste", category);
 
 }
 
@@ -37,8 +39,8 @@ getCategories =() => {
           <button type="button" className="btn btn-secondary dropdown-toggle dropdown-toggle-split" id="dropdownMenuReference" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-reference="parent">
           </button>
           <div className="dropdown-menu" aria-labelledby="dropdownMenuReference">
-            {categories.map((category) => {
-              return   <a key={category} className="dropdown-item" href="#">item</a>
+            {categories.map((category, i ) => {
+              return   <a key={i} className="dropdown-item" onClick={this.getExactCatergory.bind(this, category)}>{category}</a>
             })}
             <div className="dropdown-divider"></div>
             <a className="dropdown-item" href="#">Separated link</a>
