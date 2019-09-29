@@ -4,12 +4,19 @@ html , body {
 .App {
   padding: 20px;
  }
+
 header {
   display:flex;
   justify-content: space-evenly;
   text-align: center;
 }
+header div {
+     width:100%;
+}
 
+header .dropdown button{
+  width: 70%;
+}
 
 .jokeImg {
   display:flex;
