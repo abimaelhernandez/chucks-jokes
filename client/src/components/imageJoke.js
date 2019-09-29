@@ -4,6 +4,7 @@ export default class CategoryDetials extends Component {
   constructor(props){
     super(props);
     this.state = {
+
     }
   }
   render() {
@@ -16,8 +17,9 @@ export default class CategoryDetials extends Component {
           {text.value}
         </div>
         <div>
-          <img src="paris.jpg" alt="Paris"/>
+          <img src="../../../chuckSubtitute.jpeg" alt="Paris"/>
         </div>
+
       </section>
     )
   }

@@ -3,6 +3,7 @@ html , body {
 
 .App {
   padding: 20px;
+  padding: 2%;
  }
 
 header {
@@ -14,12 +15,21 @@ header div {
      width:100%;
 }
 
-header .dropdown button{
-  width: 70%;
+header div .hola{
+     width:60%;
 }
 
-.jokeImg {
+header div form {
+     width:90%;
+}
+
+.informationContainer {
   display:flex;
-  justify-content: space-evenly;
+  text-align: center;
+}
+
+.informationContainer  div{
+  position: relative;
+  width:100%;
   text-align: center;
 }
