@@ -1,8 +1,24 @@
-import React from 'react';
+import React,{Component} from 'react';
 
-function CategoryDetials(props) {
-  console.log("estamos adentro de cater", props);
-  return <h1>HelloWorld  || Details of joke </h1>;
+export default class CategoryDetials extends Component {
+  constructor(props){
+    super(props);
+    this.state = {
+    }
+  }
+  render() {
+    console.log("inside of getExactCatergory :", this.props.text);
+    let text = this.props.text;
+
+    return(
+      <section className="informationContainer">
+        <div>
+          {text.value}
+        </div>
+        <div>
+          <img src="paris.jpg" alt="Paris"/>
+        </div>
+      </section>
+    )
+  }
 }
-
-export default CategoryDetials;
