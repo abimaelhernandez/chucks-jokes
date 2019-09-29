@@ -1,0 +1,18 @@
+html , body {
+}
+
+.App {
+  padding: 20px;
+ }
+header {
+  display:flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+
+.jokeImg {
+  display:flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
