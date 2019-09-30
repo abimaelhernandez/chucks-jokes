@@ -2,25 +2,41 @@ html , body {
 }
 
 .App {
-  padding: 20px;
-  padding: 2%;
+  border-style: ridge;
  }
 
 header {
   display:flex;
   justify-content: space-evenly;
   text-align: center;
+  padding: 40px 50px;
 }
+
 header div {
      width:100%;
+     padding:10px;
+}
+
+
+header div form {
+  width:90%;
 }
 
 header div .hola{
      width:60%;
+     /* max-with:500px; */
 }
 
-header div form {
-     width:90%;
+.buttonContainer {
+  position: relative;
+  text-align: right;
+  width:40%;
+}
+
+.buttonContainer button {
+  position: relative;
+  text-align: center;
+  width:80%;
 }
 
 .informationContainer {
@@ -28,8 +44,46 @@ header div form {
   text-align: center;
 }
 
-.informationContainer  div{
+@media screen and ( max-width: 767px){
+
+  .informationContainer  div{
+    position: relative;
+    width:100%;
+    text-align: center;
+  }
+  header {
+    padding:0px;
+  }
+
+}
+
+@media screen and ( min-width: 868px){
+  .App{
+    margin:5%;
+    padgin:1%;
+  }
+
+}
+
+.informationContainer .theText{
+  position: relative;
+  padding:5%;
+  width:45%;
+  text-align: center;
+}
+
+.informationContainer .theImg {
+  position: relative;
+  padding:10px;
+  width:55%;
+  text-align: center;
+}
+
+.informationContainer .theImg  img {
   position: relative;
   width:100%;
-  text-align: center;
+}
+
+.dropdown-menu.show {
+    display: block;
 }
