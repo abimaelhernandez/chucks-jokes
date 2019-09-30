@@ -12,5 +12,5 @@
 > 4. Open in ``` localhost:3000 ```
 
 ## Front End Development
-> .1  execute ```npm run dev ``` in another instance of terminal from root folder
-> .a this will start webpack and be enable yo9u to see and make changes
+> 1.  execute ```npm run dev ``` in another instance of terminal from root folder
+>  2.this will start webpack and be enable yo9u to see and make changes
